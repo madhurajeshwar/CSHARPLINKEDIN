@@ -28,136 +28,136 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.TextName = new System.Windows.Forms.Label();
-            this.TextAddress = new System.Windows.Forms.Label();
-            this.TextCity = new System.Windows.Forms.Label();
-            this.TextState = new System.Windows.Forms.Label();
-            this.TextZip = new System.Windows.Forms.Label();
-            this.TextPhone = new System.Windows.Forms.Label();
-            this.TextTwitter = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.TextN1 = new System.Windows.Forms.Label();
+            this.TextA1 = new System.Windows.Forms.Label();
+            this.TextC1 = new System.Windows.Forms.Label();
+            this.TextSt1 = new System.Windows.Forms.Label();
+            this.TextZ1 = new System.Windows.Forms.Label();
+            this.TextP1 = new System.Windows.Forms.Label();
+            this.TextT1 = new System.Windows.Forms.Label();
+            this.TextName = new System.Windows.Forms.TextBox();
+            this.TextState = new System.Windows.Forms.TextBox();
+            this.TextCity = new System.Windows.Forms.TextBox();
+            this.TextAddress = new System.Windows.Forms.TextBox();
+            this.TextZip = new System.Windows.Forms.TextBox();
+            this.TextPhone = new System.Windows.Forms.TextBox();
+            this.TextTwitter = new System.Windows.Forms.TextBox();
             this.ClickToTest = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
+            // TextN1
+            // 
+            this.TextN1.AutoSize = true;
+            this.TextN1.Location = new System.Drawing.Point(85, 27);
+            this.TextN1.Name = "TextN1";
+            this.TextN1.Size = new System.Drawing.Size(33, 13);
+            this.TextN1.TabIndex = 0;
+            this.TextN1.Text = "name";
+            this.TextN1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // TextA1
+            // 
+            this.TextA1.AutoSize = true;
+            this.TextA1.Location = new System.Drawing.Point(85, 64);
+            this.TextA1.Name = "TextA1";
+            this.TextA1.Size = new System.Drawing.Size(44, 13);
+            this.TextA1.TabIndex = 1;
+            this.TextA1.Text = "address";
+            // 
+            // TextC1
+            // 
+            this.TextC1.AutoSize = true;
+            this.TextC1.Location = new System.Drawing.Point(85, 106);
+            this.TextC1.Name = "TextC1";
+            this.TextC1.Size = new System.Drawing.Size(23, 13);
+            this.TextC1.TabIndex = 2;
+            this.TextC1.Text = "city";
+            // 
+            // TextSt1
+            // 
+            this.TextSt1.AutoSize = true;
+            this.TextSt1.Location = new System.Drawing.Point(85, 149);
+            this.TextSt1.Name = "TextSt1";
+            this.TextSt1.Size = new System.Drawing.Size(30, 13);
+            this.TextSt1.TabIndex = 3;
+            this.TextSt1.Text = "state";
+            // 
+            // TextZ1
+            // 
+            this.TextZ1.AutoSize = true;
+            this.TextZ1.Location = new System.Drawing.Point(85, 182);
+            this.TextZ1.Name = "TextZ1";
+            this.TextZ1.Size = new System.Drawing.Size(22, 13);
+            this.TextZ1.TabIndex = 4;
+            this.TextZ1.Text = "Zip";
+            this.TextZ1.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // TextP1
+            // 
+            this.TextP1.AutoSize = true;
+            this.TextP1.Location = new System.Drawing.Point(85, 238);
+            this.TextP1.Name = "TextP1";
+            this.TextP1.Size = new System.Drawing.Size(37, 13);
+            this.TextP1.TabIndex = 5;
+            this.TextP1.Text = "phone";
+            // 
+            // TextT1
+            // 
+            this.TextT1.AutoSize = true;
+            this.TextT1.Location = new System.Drawing.Point(85, 274);
+            this.TextT1.Name = "TextT1";
+            this.TextT1.Size = new System.Drawing.Size(39, 13);
+            this.TextT1.TabIndex = 6;
+            this.TextT1.Text = "Twitter";
+            // 
             // TextName
             // 
-            this.TextName.AutoSize = true;
-            this.TextName.Location = new System.Drawing.Point(85, 27);
+            this.TextName.Location = new System.Drawing.Point(126, 24);
             this.TextName.Name = "TextName";
-            this.TextName.Size = new System.Drawing.Size(33, 13);
-            this.TextName.TabIndex = 0;
-            this.TextName.Text = "name";
-            this.TextName.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // TextAddress
-            // 
-            this.TextAddress.AutoSize = true;
-            this.TextAddress.Location = new System.Drawing.Point(85, 64);
-            this.TextAddress.Name = "TextAddress";
-            this.TextAddress.Size = new System.Drawing.Size(44, 13);
-            this.TextAddress.TabIndex = 1;
-            this.TextAddress.Text = "address";
-            // 
-            // TextCity
-            // 
-            this.TextCity.AutoSize = true;
-            this.TextCity.Location = new System.Drawing.Point(85, 106);
-            this.TextCity.Name = "TextCity";
-            this.TextCity.Size = new System.Drawing.Size(23, 13);
-            this.TextCity.TabIndex = 2;
-            this.TextCity.Text = "city";
+            this.TextName.Size = new System.Drawing.Size(100, 20);
+            this.TextName.TabIndex = 8;
             // 
             // TextState
             // 
-            this.TextState.AutoSize = true;
-            this.TextState.Location = new System.Drawing.Point(85, 149);
+            this.TextState.Location = new System.Drawing.Point(126, 142);
             this.TextState.Name = "TextState";
-            this.TextState.Size = new System.Drawing.Size(32, 13);
-            this.TextState.TabIndex = 3;
-            this.TextState.Text = "State";
+            this.TextState.Size = new System.Drawing.Size(100, 20);
+            this.TextState.TabIndex = 9;
+            // 
+            // TextCity
+            // 
+            this.TextCity.Location = new System.Drawing.Point(126, 99);
+            this.TextCity.Name = "TextCity";
+            this.TextCity.Size = new System.Drawing.Size(100, 20);
+            this.TextCity.TabIndex = 10;
+            // 
+            // TextAddress
+            // 
+            this.TextAddress.Location = new System.Drawing.Point(126, 61);
+            this.TextAddress.Name = "TextAddress";
+            this.TextAddress.Size = new System.Drawing.Size(100, 20);
+            this.TextAddress.TabIndex = 11;
             // 
             // TextZip
             // 
-            this.TextZip.AutoSize = true;
-            this.TextZip.Location = new System.Drawing.Point(85, 182);
+            this.TextZip.Location = new System.Drawing.Point(126, 182);
             this.TextZip.Name = "TextZip";
-            this.TextZip.Size = new System.Drawing.Size(22, 13);
-            this.TextZip.TabIndex = 4;
-            this.TextZip.Text = "Zip";
-            this.TextZip.Click += new System.EventHandler(this.label5_Click);
+            this.TextZip.Size = new System.Drawing.Size(100, 20);
+            this.TextZip.TabIndex = 12;
             // 
             // TextPhone
             // 
-            this.TextPhone.AutoSize = true;
-            this.TextPhone.Location = new System.Drawing.Point(85, 238);
+            this.TextPhone.Location = new System.Drawing.Point(126, 231);
             this.TextPhone.Name = "TextPhone";
-            this.TextPhone.Size = new System.Drawing.Size(37, 13);
-            this.TextPhone.TabIndex = 5;
-            this.TextPhone.Text = "phone";
+            this.TextPhone.Size = new System.Drawing.Size(100, 20);
+            this.TextPhone.TabIndex = 13;
             // 
             // TextTwitter
             // 
-            this.TextTwitter.AutoSize = true;
-            this.TextTwitter.Location = new System.Drawing.Point(85, 274);
+            this.TextTwitter.Location = new System.Drawing.Point(126, 271);
             this.TextTwitter.Name = "TextTwitter";
-            this.TextTwitter.Size = new System.Drawing.Size(39, 13);
-            this.TextTwitter.TabIndex = 6;
-            this.TextTwitter.Text = "Twitter";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(126, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 8;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(126, 142);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 9;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(126, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 10;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(126, 61);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(126, 182);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 12;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(126, 231);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 13;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(126, 271);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 14;
+            this.TextTwitter.Size = new System.Drawing.Size(100, 20);
+            this.TextTwitter.TabIndex = 14;
             // 
             // ClickToTest
             // 
@@ -175,20 +175,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(472, 454);
             this.Controls.Add(this.ClickToTest);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.TextTwitter);
             this.Controls.Add(this.TextPhone);
             this.Controls.Add(this.TextZip);
-            this.Controls.Add(this.TextState);
-            this.Controls.Add(this.TextCity);
             this.Controls.Add(this.TextAddress);
+            this.Controls.Add(this.TextCity);
+            this.Controls.Add(this.TextState);
             this.Controls.Add(this.TextName);
+            this.Controls.Add(this.TextT1);
+            this.Controls.Add(this.TextP1);
+            this.Controls.Add(this.TextZ1);
+            this.Controls.Add(this.TextSt1);
+            this.Controls.Add(this.TextC1);
+            this.Controls.Add(this.TextA1);
+            this.Controls.Add(this.TextN1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -199,20 +199,20 @@
 
         #endregion
 
-        private System.Windows.Forms.Label TextName;
-        private System.Windows.Forms.Label TextAddress;
-        private System.Windows.Forms.Label TextCity;
-        private System.Windows.Forms.Label TextState;
-        private System.Windows.Forms.Label TextZip;
-        private System.Windows.Forms.Label TextPhone;
-        private System.Windows.Forms.Label TextTwitter;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label TextN1;
+        private System.Windows.Forms.Label TextA1;
+        private System.Windows.Forms.Label TextC1;
+        private System.Windows.Forms.Label TextSt1;
+        private System.Windows.Forms.Label TextZ1;
+        private System.Windows.Forms.Label TextP1;
+        private System.Windows.Forms.Label TextT1;
+        private System.Windows.Forms.TextBox TextName;
+        private System.Windows.Forms.TextBox TextState;
+        private System.Windows.Forms.TextBox TextCity;
+        private System.Windows.Forms.TextBox TextAddress;
+        private System.Windows.Forms.TextBox TextZip;
+        private System.Windows.Forms.TextBox TextPhone;
+        private System.Windows.Forms.TextBox TextTwitter;
         private System.Windows.Forms.Button ClickToTest;
     }
 }

@@ -41,9 +41,24 @@ namespace SchoolFormsApp
         private void ClickToTest_Click(object sender, EventArgs e)
         {
             var testSchool = new School();
-            testSchool.name = "Bhashyam";
-            testSchool.state = "Telangana";
-            testSchool.twitterUserName = "@Bhashyam";
+            testSchool.name = TextName.Text;
+            testSchool.state = TextState.Text;
+            testSchool.address = TextAddress.Text;
+            testSchool.city = TextCity.Text;
+            testSchool.phoneNumber = TextPhone.Text;
+            try
+            {
+                testSchool.twitterUserName = TextTwitter.Text;
+                MessageBox.Show(testSchool.ToString());
+                Console.WriteLine(testSchool.twitterUserName);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(testSchool.twitterUserName);
+                MessageBox.Show(ex.Message);
+            }
+           
+
         }
     }
 }

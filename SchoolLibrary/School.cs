@@ -29,6 +29,7 @@ namespace SchoolLibrary
                 }
                 else
                 {
+                    Console.WriteLine("I am "+value);
                     throw new Exception("Twitter address entered is invalid");
                 }
             }
