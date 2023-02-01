@@ -57,7 +57,7 @@ namespace SchoolFormsApp
                 Console.WriteLine(testSchool.twitterUserName);
                 MessageBox.Show(ex.Message);
             }
-           var student b = new Student();
+           var student  = new Student();
 
         }
     }
