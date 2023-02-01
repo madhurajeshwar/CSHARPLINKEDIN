@@ -1,0 +1,14 @@
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe.config
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\bin\Debug\SchoolFormsApp.pdb
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\bin\Debug\SchoolLibrary.dll
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\bin\Debug\SchoolLibrary.pdb
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.AssemblyReference.cache
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.Form1.resources
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.Properties.Resources.resources
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.GenerateResource.cache
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CopyComplete
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.exe
+C:\Users\madhuv\Desktop\CSHARP\CSHARPLINKEDIN\SchoolFormsApp\obj\Debug\SchoolFormsApp.pdb
